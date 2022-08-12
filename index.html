@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href="signup.html">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+    <div id="loginPage" class="logIn w-50 p-5">
+          <h1 class="mb-4">Smart Login System</h1>
+          <input id="emailOfUser"  type="email" class="form-control mb-4 bg-transparent text-white" placeholder="Enter your email">
+          <input id="passwordOfUser"  type="password" class="form-control mb-4 bg-transparent text-white" placeholder="Enter your password">
+
+          <button  onclick="logIn()" class="btn btn-outline-info w-100 my-3">Login</button>
+          <p class="text-white">Don’t have an account? <a class="text-white" href="signup.html">Sign Up</a></p>
+    
+    </div>
+
+    <div id="welcomePage" class="homePage d-none ">
+        <div class="homeNav d-flex justify-content-start px-5 py-3">
+            <h2 class="fs-3 ms-5 fw-light">SMART LOGIN</h2>  
+            <button onclick="logOut()" class="ms-auto me-5"><a href="index.html" class="text-white">LogOut</a></button>
+        </div>
+        <div id="welcomeWord" class="welcomeUser w-50">
+
+        </div>
+    </div>
+
+<script src="JS/popper.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/main.js"></script>
+<script src="JS/signup.js"></script>
+
+</body>
+</html>

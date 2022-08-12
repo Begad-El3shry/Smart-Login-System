@@ -1,0 +1,46 @@
+body{
+    background: rgb(36, 53, 63);
+}
+.logIn{
+    box-shadow: 0 0 30px rgb(0,0, 0);
+    margin: 48px auto;
+    text-align: center;
+    display: block;
+}
+h1{
+    color: rgb(28, 186, 211);
+}
+.homePage{
+    background: rgb(36, 53, 63);
+    position: fixed;
+    top: 0;    
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.homePage button{
+    width: 80px;
+    border: 1px solid orange;
+    color:orange;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.homePage h2{
+    color: white;
+}
+.homeNav{
+    background: rgb(36, 53, 63);
+    box-shadow: 0 0 30px rgb(0,0, 0);
+
+}
+.welcomeUser{
+    background: rgb(36, 53, 63);
+    box-shadow: 0 0 30px rgb(0,0, 0);
+    text-align: center;
+    height:200px ;
+    margin: 100px auto;
+    color: rgb(28, 186, 211);
+}
+
+
+
